@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#hero-image {
+    background-image: url("assets/images/kadugli-kordofan-sudan.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+}
+
+#hero-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; 
+    margin-bottom: 150px;
+}
+
+#welcome-title {
+    color: white;
+    background-color: #7F8D8B;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-right: 40px;
+}
+
+#welcome-subtitle {
+    color: white;
+    background-color: #5c6452;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-top: 0px; 
+    margin-right: 70px;
+}
+
+.activities-section {
+    background-color: #F1FAEE;
+    height: auto;
+    padding: 40px 20px;
+}
+
+.activities {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 40px;
+    flex-wrap: wrap; 
+}
+
+.activities img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.activities div {
+    width: 300px;
+}
+
+
+p {
+    font-size: large;
+}
+
+.profile-card {
+    display: flex;
+    width: 500px; 
+    align-items: center;
+    justify-content: space-around;
+    background-color: #5c6452;
+    color: #F1FAEE;
+    gap: 20px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.profile-card img {
+    width: 180px;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.profile-text {
+    
+    text-align: center;
+}
+
